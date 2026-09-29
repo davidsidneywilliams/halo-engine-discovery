@@ -37,6 +37,31 @@ This repository is a public discovery and documentation surface. It does not rep
 
 The application does not currently advertise a public OpenAPI contract, MCP endpoint, discovery manifest, `llms-full.txt`, or public `agents.md` file.
 
+## HALO Engine knowledge layer
+
+HALO Engine publishes a public knowledge layer covering the concepts used by the diagnostic.
+
+### Canonical knowledge resources
+
+- [HALO Engine Knowledge](https://engine.thinkhalo.ai/knowledge)
+- [Authority in AI workflows](https://engine.thinkhalo.ai/knowledge/authority)
+
+### Authority
+
+**Authority** describes how organizations assign an authoritative system for each data domain and mutation type.
+
+The core principle is:
+
+> Assign an authoritative system for each data domain and mutation type.
+
+Without declared ownership, conflicting systems can create silent operational errors.
+
+Authority is distinct from **Permissions**, which defines what an AI system is allowed to do, and **Guardrails**, which defines the validation, approval, and shutdown controls governing those actions.
+
+The canonical source for HALO Engine knowledge is [engine.thinkhalo.ai](https://engine.thinkhalo.ai/).
+
+
+
 ## Authority and provenance
 
 ThinkHALO publishes HALO Engine. David Sidney Williams is its identified creator. The canonical identity graph is published in the application's JSON-LD and concise discovery file.
